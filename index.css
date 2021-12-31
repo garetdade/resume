@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'trek';
+  src: url('Context_Ultra_Condensed.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+  font-family: 'trek';
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    color: #ff9900;
+}
+
+.flex-container > div {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.cap {
+  background-color: #9999ff;
+  width: 25px;
+}
+
+.left { border-radius: 75px 0 0 75px; }
+.right { border-radius: 0 75px 75px 0; }
+
+.bar {
+    background-color: #cc99cc;
+    flex-grow: 1;
+}
+
+.logo {
+    height: 100%;
+}
