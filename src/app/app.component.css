@@ -1,0 +1,58 @@
+  /* Responsive Styles */
+  /* @media screen and (max-width: 767px) {
+    
+  }
+
+  @media screen and (max-width: 575px) {
+    
+  } */
+
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+      color: #ff9900;
+  }
+  
+  .flex-container > div {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .cap {
+    background-color: #9999ff;
+    width: 25px;
+  }
+  
+  .left { border-radius: 75px 0 0 75px; }
+  .right { border-radius: 0 75px 75px 0; }
+  
+  .bar {
+      background-color: #cc99cc;
+      flex-grow: 1;
+  }
+  
+  .logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40em;
+      height: auto;
+      padding: 2em;
+  }
+  
+  .name, .info1, .info2 {
+    color: #ff9900;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  } 
+  
+  .name {
+    font-size:6em;
+  }
+  .info1, .info2 {
+    font-size: 2.5em;
+    margin: 1ex;
+  }
