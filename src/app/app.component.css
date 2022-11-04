@@ -58,3 +58,9 @@
     margin: 1ex;
     font-family: 'Trek';
   }
+
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
